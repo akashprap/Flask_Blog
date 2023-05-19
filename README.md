@@ -34,6 +34,5 @@ Before running the application, you need to configure some environment variables
 
 3. To run the Flask_Blog application, execute the following command:
 
-       ```shell
         python run.py
 

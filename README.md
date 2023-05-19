@@ -20,6 +20,8 @@ Before running the application, you need to configure some environment variables
 
 1. Set the following environment variables:
 2. Open command prompt as administrator
+
+
    ```shell
     setx SECRET_KEY some_hex_value
 

@@ -19,10 +19,13 @@ Blog Web-App using Flask and SQL-Alchemy
 Before running the application, you need to configure some environment variables.
 
 1. Set the following environment variables:
+2. Open command prompt as administrator
    ```shell
-    set SECRET_KEY=some_hex_value
-    set MAIL_USERNAME=email_of_user
-    set MAIL_PASSWORD=password_of_email_of_user
+    setx SECRET_KEY some_hex_value
+  ```shell
+    setx MAIL_USERNAME email_of_user
+ ```shell
+    setx MAIL_PASSWORD password_of_email_of_user
 
 2.  To run the Flask_Blog application, execute the following command:
        ```shell

@@ -9,7 +9,7 @@ Flask-Login
 Flask-Mail
 Flask-SQLAlchemy
 Flask-WTF
-itsdangerous
+itsdangerous==1.1.0
 Jinja2
 MarkupSafe
 Pillow

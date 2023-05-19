@@ -3,6 +3,7 @@ blinker
 certifi
 cffi
 click
+email-validator
 Flask
 Flask-Bcrypt
 Flask-Login

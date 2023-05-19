@@ -23,10 +23,8 @@ Before running the application, you need to configure some environment variables
    ```shell
     setx SECRET_KEY some_hex_value
 
-  ```shell
     setx MAIL_USERNAME email_of_user
-
- ```shell
+    
     setx MAIL_PASSWORD password_of_email_of_user
 
 2.  To run the Flask_Blog application, execute the following command:

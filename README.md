@@ -22,8 +22,10 @@ Before running the application, you need to configure some environment variables
 2. Open command prompt as administrator
    ```shell
     setx SECRET_KEY some_hex_value
+
   ```shell
     setx MAIL_USERNAME email_of_user
+
  ```shell
     setx MAIL_PASSWORD password_of_email_of_user
 

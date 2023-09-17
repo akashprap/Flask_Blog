@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    SECRET_KEY = str(os.environ.get('SECRET_KEY'))
+    SECRET_KEY = (os.environ.get('SECRET_KEY'))
     SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI')
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587

@@ -88,9 +88,6 @@ To run this application locally, you will need to set up some environment variab
 
 Contributions are welcome! If you'd like to suggest changes or report bugs, please open an issue or submit a pull request.
 
-## License 📜
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact 📧
 

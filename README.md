@@ -58,6 +58,7 @@ To run this application locally, you will need to set up some environment variab
    pip install -r requirements.txt
    ```
 
+  
 5. Set up the following environment variables:
 
    - `SECRET_KEY`: A secret key for your application.
@@ -65,15 +66,36 @@ To run this application locally, you will need to set up some environment variab
    - `EMAIL_USER`: Your email address for sending emails.
    - `EMAIL_PASS`: Your email password or an app-specific password for sending emails.
 
+
+    - Open a terminal or Command Prompt window.
+
+   - Set the `EMAIL_USER` and `EMAIL_PASS` environment variables using the following commands:
+
+     - For Windows:
+
+       ```batch
+       setx EMAIL_USER "your_email@gmail.com"
+       setx EMAIL_PASS "your_email_password_or_app_password"
+       ```
+
+     - For macOS and Linux:
+
+       ```bash
+       export EMAIL_USER="your_email@gmail.com"
+       export EMAIL_PASS="your_email_password_or_app_password"
+       ```
+
+   Replace `"your_email@gmail.com"` with your email address and `"your_email_password_or_app_password"` with your email password or an app-specific password if applicable.
+
    You can set these environment variables in your system or by using a tool like `python-dotenv`.
 
-6. Start the application:
+5. Start the application:
 
    ```bash
-   flask run
+   python run.py
    ```
 
-7. Access the app in your web browser at `http://localhost:5000`.
+6. Access the app in your web browser at `http://localhost:5000`.
 
 ## Usage 📝
 

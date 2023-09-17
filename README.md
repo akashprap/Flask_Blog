@@ -73,7 +73,7 @@ To run this application locally, you will need to set up some environment variab
 6. Start the application:
 
    ```bash
-   flask run
+   python run.py
    ```
 
 7. Access the app in your web browser at `http://localhost:5000`.
